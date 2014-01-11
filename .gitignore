@@ -17,6 +17,7 @@ nb-configuration.xml
 ### Ruby ###
 *.gem
 *.rbc
+*.rb
 /.config
 /coverage/
 /InstalledFiles
@@ -68,3 +69,4 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+*.bat

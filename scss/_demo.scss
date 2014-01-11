@@ -16,7 +16,7 @@ a {
 	color: #31bc86;
 	text-decoration: none;
 	&:hover,
-	&:focus {
+		&:focus {
 		color: #7c8d87;
 	}
 }
@@ -26,18 +26,18 @@ a {
 	padding: 2em;
 	text-align: center;
 	background: rgba(0,0,0,0.01);
-}
 
-.container > header h1 {
-	font-size: 2.625em;
-	line-height: 1.3;
-	margin: 0;
-	font-weight: 300;
-}
+	h1 {
+		font-size: 2.625em;
+		line-height: 1.3;
+		margin: 0;
+		font-weight: 300;
+	}
 
-.container > header span {
-	display: block;
-	font-size: 60%;
-	opacity: 0.7;
-	padding: 0 0 0.6em 0.1em;
+	span {
+		display: block;
+		font-size: 60%;
+		opacity: 0.7;
+		padding: 0 0 0.6em 0.1em;
+	}
 }

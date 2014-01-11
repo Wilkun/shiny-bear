@@ -1,5 +1,5 @@
 /* Component styles */
-@include font-face("Blokk", font-files("BLOKKRegular.woff", "BLOKKRegular.svg"),"BLOKKRegular.eot",normal,normal);
+@include font-face("Blokk", font-files("blokk/BLOKKRegular.ttf","blokk/BLOKKRegular.woff", "blokk/BLOKKRegular.svg"),"blokk/BLOKKRegular.eot",normal,normal);
 .component {
 	line-height: 1.5em;
 	margin: 0 auto;

@@ -218,11 +218,27 @@ a:hover, a:focus {
   padding: 0 0 0.6em 0.1em;
 }
 
+nav a {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.7em 1.1em;
+  outline: none;
+  border: 2px solid #31bc86;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+nav a:hover, nav a.active:hover {
+  border-color: #7c8d87;
+  color: #7c8d87;
+}
+
 /* Component styles */
 @font-face {
   font-family: "Blokk";
-  src: url('../fonts/BLOKKRegular.eot');
-  src: url('../fonts/BLOKKRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/BLOKKRegular.woff') format('woff'), url('../fonts/BLOKKRegular.svg') format('svg');
+  src: url('../fonts/blokk/BLOKKRegular.eot');
+  src: url('../fonts/blokk/BLOKKRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/blokk/BLOKKRegular.ttf') format('truetype'), url('../fonts/blokk/BLOKKRegular.woff') format('woff'), url('../fonts/blokk/BLOKKRegular.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
